@@ -1,0 +1,105 @@
+.tou{
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 998;
+  height: 46px;
+  width: 100%;
+  line-height: 46px;
+}
+.tou .tou-left img{
+  margin: 0 8px;
+}
+.tou .tou-left span{
+  align-self: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  position: fixed;
+  right: 10px;
+  top: 0;
+}
+.swipe{
+  margin-top: 43px;
+  height: 210px;
+  width: 100%;
+  z-index: 998;
+}
+.swipe img{
+  width: 100%;
+  height: 207px;
+}
+.swipe .wrap{
+  position: relative;
+}
+.swipe .wrap .desc{
+  position: absolute;
+  top: 180px;
+  bootom:10px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 0 4px 4px;
+}
+
+.se-bg{
+  background-image: url("../../static/img/bt_bg.png");
+  height: 218px;
+  width: 100%;
+}
+.se-top{
+  font-size: 12px;
+  display: flex;
+  height:109px ;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: #666666;
+}
+.se-top a{
+  color:  #666666;
+}
+.se-bottom{
+  height: 80px;
+  width: 80px;
+}
+.se-bottom p{
+  margin-top: 8px;
+}
+
+.tu img{
+  width: 100%;
+  height: 99.47px;
+}
+
+.foot{
+  display: flex;
+  background: url("../../static/img/zuanlan.png")no-repeat;
+  height: 182px;
+  width: 100%;
+  background-size: 100%;
+  -webkit-background-size: 100%;
+}
+.foot .foot-left{
+  flex: 1;
+}
+.foot .foot-right{
+  flex: 2;
+}
+.foot .foot-right .row{
+  display: flex;
+  height: 50%;
+}
+.foot .foot-right .row a{
+  flex: 1;
+  height: 100%;
+}
+* a{
+  text-decoration: none;
+}
