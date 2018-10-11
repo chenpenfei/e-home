@@ -7,8 +7,6 @@
         <input id="load" class="input" type="file" accept="image/jpeg,image/png,iamge/gif" @change="up">
         <img :src="img" v-if="img">
       </label>
-
-
     </div>
 
     <mt-button type="danger" class="button" @click="addsummary">提交审核

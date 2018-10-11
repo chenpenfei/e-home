@@ -4,7 +4,7 @@ import api from './api'
 import router from '../router/index'
 
 var xhr = axios.create({
-  baseURL: 'http://05.yaojunrong.com/api/',
+  baseURL: '/api/',
   timeout:5000
 });
 
